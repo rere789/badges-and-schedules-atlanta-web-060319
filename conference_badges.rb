@@ -31,4 +31,5 @@ def printer(attendees)
     end
     greet.each do |name|
       puts name 
+    end 
 end 
