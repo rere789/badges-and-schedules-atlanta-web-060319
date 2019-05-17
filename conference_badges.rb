@@ -28,7 +28,7 @@ def printer(attendees)
   rooms = assign_rooms(attendees)
     output = []
     room.each do |room|
-      room += output
+      rooms += output
       output += greet 
     end
     output
