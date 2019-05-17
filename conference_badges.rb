@@ -24,7 +24,7 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  greet = batch_badge_creator(names)
+  greet = batch_badge_creator(name)
   rooms = assign_rooms(placement)
   attendees = []
     room.each do |room|
