@@ -29,5 +29,6 @@ def printer(attendees)
     rooms.each do |room|
       puts room 
     end
-    
+    greet.each do |name|
+      puts name 
 end 
